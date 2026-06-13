@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="./resultados.css">
+</head>
+
+<body>
+
+    <main class="contenedor">
+
+        <section id="resultado">
+            <h1>DATOS DEL USUARIO</h1>
+
+            <p><strong>Nombre:</strong> 
+                <span id="nombre"></span>
+            </p>
+
+            <p><strong>Email:</strong>
+                <span id="email"></span>
+            </p>
+
+            <p><strong>Edad:</strong>
+                <span id="edad"></span>
+            </p>
+
+            <p><strong>País:</strong>
+                <span id="pais"></span>
+            </p>
+
+            <p id="mensaje-terminos"></p>
+
+             <button type="submit" id="btn-volver">
+                Volver al formulario
+            </button>
+        </section>
+
+        <section id="error" class="oculto">
+            <h1>ERROR</h1>
+
+            <p>
+                No se encontraron datos del formulario.
+            </p>
+
+        <button type="submit" id="btn-formulario">
+            Ir al formulario
+        </button>
+
+        </section>
+
+    </main>
+
+    <script src="./resultados.js"></script>
+
+</body>
+
+</html>
